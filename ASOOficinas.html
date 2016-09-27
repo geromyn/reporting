@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>E2E - Seguimiento CX</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/ASO/oficinas/tiempo.js"></script>
+		<script type="text/javascript" src="js/ASO/oficinas/peticiones.js"></script>
+		<script type="text/javascript" src="js/ASO/oficinas/cpu.js"></script>
+	  <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+		<link rel="Stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/tablas.css">
+		<link rel="Stylesheet" type="text/css" href="css/menu.css">
+	</head>
+	<body>
+		<header id="menu-header">
+			<div id="cabecera">
+					<div id="logo"><h>E2E -	Performance management</h></br>
+						Informe seguimiento CX
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="net_particulares.html">Net Particulares</a>
+						<ul>
+							<li><a href="">KQOF-Frontal</a></li>
+							<li><a href="">ENPS-Servicios multicanal</a></li>
+							<li><a href="">KQOF-Servicios básicos</a></li>
+							<li><a href="">Visión máquina</a></li>
+						</ul>
+					</li>
+					<li><a href="net_cash.html">NetCash</a>
+						<ul>
+							<li><a href="">KYOP-Portal</a></li>
+							<li><a href="">KYGU-Perfilado de usuarios</a></li>
+							<li><a href="">KYOS-Gestión de saldos</a></li>
+							<li><a href="">KYFB-Módulo de firmas</a></li>
+							<li><a href="">Visión máquina</a></li>
+						</ul>
+					</li>
+					<li><a href="movil.html">Móvil</a>
+						<ul>
+							<li><a href="">ENPP-Frontal</a></li>
+							<li><a href="">ENPS-Servicio multicanal</a></li>
+							<li><a href="">KYOS-Servicios básicos</a></li>
+							<li><a href="">Visión máquina</a></li>
+						</ul>
+					</li>
+					<li><a href="oficinas.html">Oficinas</a></li>
+					<li><a>ASO</a>
+						<ul>
+							<li><a href="ASOParticulares.html">Net Particulares</a></li>
+							<li><a href="ASOCash.html">Net Cash</a></li>
+							<li><a href="ASOMovil.html">Móvil</a></li>
+							<li><a href="ASOOficinas.html">Oficinas</a></li>
+						</ul>
+					</li>
+					<li><a href="APX.html">APX</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="contenedor">
+			<header>ASO - Oficinas</header>
+
+			<fieldset>
+				<div id="tiempo" style="width: 50%; height: 350px; margin:1 auto;float:left"></div>
+				<div id="peticiones" style="width: 50%; height: 350px; margin:1 auto;float:left"></div>
+				<div style="border-top:1px solid #CDCDCD;margin:10px;padding:0;clear:both;"></div>
+				<div id="cpu" style="width: 100%; height: 350px; margin:1 auto;float:left"></div>
+
+			</fieldset>
+		</section>
+	</body>
+</html>
